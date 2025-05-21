@@ -27,5 +27,9 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
+app.get('/create', (req, res) => {
+    res.render('create');
+});
+
 // Start express web server
 app.listen(5000, () => console.log('Server is listening on http://localhost:5000....'));
